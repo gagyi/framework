@@ -1,6 +1,11 @@
 {
 	"name": "gagyi/framework",
-	"license": "no",
+	"type": "library",
+	"dist": {
+		"url": "https://github.com/gagyi/framework",
+	},
+	"license": "MIT",
+	"version": "1.0.0",
 	"description": "The Gagyi Framework",
 	"require": {
 		"php": "^7.2",
@@ -10,5 +15,12 @@
 		"psr-4": {
 			"Gagyi\\": "src/Gagyi/",
 		}
-	}
+	},
+	"authors": [
+		{
+			"name": "Joakim Saettem",
+			"email": "gagyi@ttq.fr",
+			"role": "Developer"
+		}
+	]
 }
