@@ -1,0 +1,14 @@
+{
+	"name": "gomba/framework",
+	"license": "no",
+	"description": "The Gomba Framework",
+	"require": {
+		"php": "^7.2",
+		"nesbot/carbon": "^2.11",
+	},
+	"autoload": {
+		"psr-4": {
+			"Gagyi\\": "src/Gagyi/",
+		}
+	}
+}
