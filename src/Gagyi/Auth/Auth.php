@@ -1,22 +1,9 @@
 <?php
 
-/*
- * Name        : Gomba
- * Category    : Framework
- * File        : Auth
- * Author      : Joakim Saettem <joakim@saettem-mucsi.com>
- * Organization: Saettem-Mucsi
- * Updated     : 2019-10-29
- * CHANGELOG
- *  - V1.0: Initial version.
- *  - V1.1: user function updated to find user by user_name instead of user_id.
- *  - V1.2: user function search by id as user_name is now automatic as the user
- *          model was updated to use user_name as primary key.
-*/
 
-namespace Saettem\Gomba\Auth;
+namespace Gagyi\Auth;
 
-use Saettem\Gold\User;
+use App\User;
 
 class Auth
 {

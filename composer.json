@@ -1,7 +1,7 @@
 {
-	"name": "gomba/framework",
+	"name": "gagyi/framework",
 	"license": "no",
-	"description": "The Gomba Framework",
+	"description": "The Gagyi Framework",
 	"require": {
 		"php": "^7.2",
 		"nesbot/carbon": "^2.11",

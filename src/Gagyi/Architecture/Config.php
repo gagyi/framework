@@ -1,20 +1,10 @@
 <?php
 
-/*
- * Name        : Gomba
- * Category    : Framework
- * File        : Config
- * Author      : Joakim Saettem <joakim@saettem-mucsi.com>
- * Organization: Saettem-Mucsi
- * Updated     : 2019-10-29
- * CHANGELOG
- *  - V1: Initial version.
-*/
 
-namespace Saettem\Gomba\Architecture;
+namespace Gagyi\Architecture;
 
-use Saettem\Gomba\Base;
-use Saettem\Gomba\Routes\Router;
+use Gagyi\Base;
+use Gagyi\Routes\Router;
 
 class Config extends Base
 {

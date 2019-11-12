@@ -1,6 +1,6 @@
 <?php
 
-namespace Gomba;
+namespace Gagyi;
 
 abstract class Base
 {

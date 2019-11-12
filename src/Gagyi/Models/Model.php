@@ -1,24 +1,13 @@
 <?php
 
-/*
- * Name        : Gomba
- * Category    : Framework
- * File        : Model
- * Author      : Joakim Saettem-Mucsi <joakim@saettem-mucsi.com>
- * Organization: Saettem-Mucsi
- * CHANGELOG
- *  -   2019-11-01: Initial version.
- *  -   2019-11-04: save() method, added_at fixed.
- *  -   2019-11-05: save() method created_at with timestamp also.
- */
 
-namespace Saettem\Gomba\Models;
+namespace Gagyi\Models;
 
 use Carbon\Carbon;
-use Saettem\Gomba\Auth\Auth;
-use Saettem\Gomba\Tarolas\Tarolas;
-use Saettem\Gomba\Support\Support;
-use Saettem\Gomba\Collection\Collection;
+use Gagyi\Auth\Auth;
+use Gagyi\Tarolas\Tarolas;
+use Gagyi\Support\Support;
+use Gagyi\Collection\Collection;
 
 
 

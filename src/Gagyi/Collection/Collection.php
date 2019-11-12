@@ -1,20 +1,8 @@
 <?php
 
-/*
- * Name        : Gomba
- * Category    : Framework
- * File        : Collection
- * Author      : Joakim Saettem <joakim@saettem-mucsi.com>
- * Organization: Saettem-Mucsi
- * Updated     : 2019-10-29
- * CHANGELOG
- *  -   V1: Initial version.
- *  - v1.1: Grab method.
-*/
+namespace Gagyi\Collection;
 
-namespace Saettem\Gomba\Collection;
-
-use Saettem\Gomba\Support\Support;
+use Gagyi\Support\Support;
 
 class Collection implements \ArrayAccess, \Iterator, \Countable {
 	private $items = [];
@@ -220,8 +208,8 @@ class Collection implements \ArrayAccess, \Iterator, \Countable {
 	// For example $newcollection = $collection->morph('Agent');
 	public function morph($model) {
 		global $baseDir;
-		include_once("{$baseDir}/Gold/{$model}.php");
-		$model = 'Saettem\\Gold\\' . $model;
+		include_once("{$baseDir}/app/{$model}.php");
+		$model = 'Saettem\\app\\' . $model;
 		$newmodel = new $model;
 		$newitems = [];
 

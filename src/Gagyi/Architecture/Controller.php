@@ -1,29 +1,14 @@
 <?php
 
-/*
- * Name        : Gomba
- * Category    : Framework
- * File        : Controller
- * Author      : Joakim Saettem <joakim@saettem-mucsi.com>
- * Organization: Saettem-Mucsi
- * Updated     : 2019-10-29
- * CHANGELOG
- *  - V1: Initial version.
-*/
 
-namespace Saettem\Gomba\Architecture;
+namespace Gagyi\Architecture;
 
-use Saettem\Gomba\Base;
-use Saettem\Gomba\Support;
-use Saettem\Gomba\Architecture\Architecture;
+use Gagyi\Base;
+use Gagyi\Support;
+use Gagyi\Architecture\Architecture;
 
 
-
-class Controller extends Base
-{
-
-
-
+class Controller extends Base {
 	protected $name;
 	protected $method;
 	protected $controller;
