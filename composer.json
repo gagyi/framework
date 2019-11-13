@@ -2,7 +2,6 @@
 	"name": "gagyi/framework",
 	"type": "library",
 	"license": "MIT",
-	"version": "1.0.0",
 	"description": "The Gagyi Framework",
 	"require": {
 		"php": "^7.2",
