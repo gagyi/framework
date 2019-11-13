@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": true,
+  "hostname": "ttq.fr",
+  "port": "2415",
+  "target": "/projects/gagyi/framework",
+  "ignore": [
+    "vendor/**",
+    ".git/**"
+  ],
+  "username": "gagyi",
+  "password": "riIU193Jm1LLLooo9",
+  "watch": [],
+  "transport": "scp"
+}
